@@ -1,0 +1,6 @@
+You can start the ldap server via the provided `run_server.sh` script.
+
+This uses the [bitnami/openldap:2.5](https://hub.docker.com/r/bitnami/openldap)
+image to run an openldap/slapd server using docker.
+
+It will also take care of generating the server TLS certificates if they're not present.

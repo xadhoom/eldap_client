@@ -1,0 +1,3 @@
+{incl_app,eldap_client,details}.
+
+{excl_mods, eldap_clien, ['ELDAPClientV3']}.
